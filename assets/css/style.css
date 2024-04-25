@@ -31,7 +31,7 @@ header {
 }
 
 main {
-    background: #333338 url("assets/img/stacked-waves-haikei.svg") no-repeat center/cover;
+    background: #333338 url("../img/stacked-waves-haikei.svg") no-repeat center/cover;
 }
 
 main > * {
