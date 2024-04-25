@@ -1,0 +1,43 @@
+* {
+    /* border: 0.5px dotted rgb(255, 0, 0); */
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.sidebar,
+header {
+    background-color: #131316;
+}
+
+.sidebarButton {
+    background-color: #131316 !important;
+    border: none;
+}
+
+.sidebar {
+    transform: translate(-100rem);
+    transition: all .3s ease;
+    z-index: 9999;
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    overflow-y: auto; 
+}
+
+.show-sidebar {
+    transform: translateX(0);
+}
+
+main {
+    background: #333338 url("/assets/img/stacked-waves-haikei.svg") no-repeat center/cover;
+}
+
+main > * {
+    color: white;
+}
+
+footer {
+    background-color: #e9a465;
+}
